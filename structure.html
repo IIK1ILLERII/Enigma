@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<header class="encabezado">
+    <div class="logo">
+        <video src="Logo.mp4" autoplay loop muted></video>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="principal.html">Principal</a></li>
+        <li><a href="structure.html">Tienda</a></li>
+        <li><a href="...">Nosotros</a></li>
+      </ul>
+    </nav>
+    <a href="..." class="btn"><button>Contactanos</button></a>
+    <div class="carrito">
+      <a href="..."><img src="carrito.png" alt="carrito de compras" /></a>
+    </div>
+</header>
+
+<body>
+
+
+    <div class="main-layout">
+        <aside class="sidebar">
+            <nav class="sidebar-nav">
+                <ul class="main-links">
+                    <li>
+                        <a href="#" class="sidebar-item active" data-content="procesador">
+                            <i class="bi bi-cpu"></i> Procesador
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-item" data-content="placa">
+                            <i class="bi bi-motherboard"></i> Placa Madre
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-item" data-content="memoria">
+                            <i class="bi bi-memory"></i> Memoria
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-item" data-content="almacena">
+                            <i class="bi bi-nvme"></i> Almacenamiento
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-item" data-content="video">
+                            <i class="bi bi-gpu-card"></i> Tarjeta de Video
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-item" data-content="agfolio">
+                            <i class="bi bi-fan"></i> Cooler
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-item" data-content="agfolio">
+                            <i class="bi bi-power"></i> Fuente de Poder
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="sidebar-item" data-content="agfolio">
+                            <i class="fas fa-briefcase"></i> Case
+                        </a>
+                    </li>
+                    
+                </ul>
+
+            <button class="sidebar-toggle" aria-label="Toggle Sidebar">
+                <i class="fas fa-bars"></i>
+            </button>
+        </aside>
+
+        <main class="content-area">
+            <section id="procesador" class="content-pane active">
+              <div class="container">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="i9.jpg" alt="proc1">
+                            <h2 class="product-title">CPU INTEL CORE ULTRA 9 285K 8N 16TH 3.7GHZ</h2>
+                            <p class="product-price">$ 699.00 (S/.2558.34)</p>
+
+                        </div>
+                        <div class="product-card">
+                            <img src="i7.jpg" alt="proc2">
+                            <h3 class="product-title">CPU INTEL CORE ULTRA 7 265KF 8N 12TH LGA 1851</h3>
+                            <p class="product-price">$ 410.00 (S/.1500.60)</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="i5.jpg" alt="proc3">
+                            <h3 class="product-title">CPU INTEL CORE ULTRA 5 245K 8N 14TH LGA 1851</h3>
+                            <p class="product-price">$ 385.00 (S/ 1409.10)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="placa" class="content-pane">
+                <div class="container">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="asus.jpg" alt="placa1">
+                            <h2 class="product-title">PLACA ASUS ROG MAXIMUS Z790 HERO DDR5 LGA 1700</h2>
+                            <p class="product-price">$ 655,00 (S/ 2.423,50)</p>
+
+                        </div>
+                        <div class="product-card">
+                            <img src="aourus.jpg" alt="placa2">
+                            <h3 class="product-title">PLACA AORUS Z790 PRO X WIFI7 DDR5 LGA 1700</h3>
+                            <p class="product-price">$ 440,00 (S/ 1.628,00)</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="msi.jpg" alt="placa3">
+                            <h3 class="product-title">PLACA MSI Z890 TOMAHAWK WI-FI 7 DDR5 LGA 1851</h3>
+                            <p class="product-price">$ 385,00 (S/ 1.424,50)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="memoria" class="content-pane">
+                <div class="container">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="corsair.jpg" alt="ram1">
+                            <h2 class="product-title">DOMINATOR TITANIUM RGB 96GB (2x48 GB) DDR5</h2>
+                            <p class="product-price">$ 427.99 (S/ 1,562.59)</p>
+
+                        </div>
+                        <div class="product-card">
+                            <img src="trident.jpg" alt="ram2">
+                            <h3 class="product-title">G.SKILL TRIDENT Z5 RGB 32 GB (2X16 GB) DDR5</h3>
+                            <p class="product-price">$ 208.15 (S/ 754.39)</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="patriot.jpg" alt="ram3">
+                            <h3 class="product-title">PATRIOT VIPER ELITE 5 32 GB (2X16 GB) DDR5</h3>
+                            <p class="product-price">$ 380.87 (S/ 1,380.38)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="almacena" class="content-pane">
+                <div class="container">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="samsung.jpg" alt="store1">
+                            <h2 class="product-title">UNIDAD DE ESTADO SÓLIDO SAMSUNG 980 1TB M.2 2280 NVME</h2>
+                            <p class="product-price">$ 140.69 (S/ 509.90)</p>
+
+                        </div>
+                        <div class="product-card">
+                            <img src="Western Digital.png" alt="store2">
+                            <h3 class="product-title">SSD WESTERN DIGITAL BLACK SN850X 2TB M.2 NVME</h3>
+                            <p class="product-price">$ 208.15 (S/ 754.39)</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="kingston.jpg" alt="store3">
+                            <h3 class="product-title">UNIDAD SSD INTERNO M.2 2TB KINGSTON NV3 NVME PCLE 4.0</h3>
+                            <p class="product-price">$ 136.33 (S/ 494.10)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="video" class="content-pane">
+                <div class="container">
+                    <div class="products-grid">
+                        <div class="product-card">
+                            <img src="5090.jpg" alt="store1">
+                            <h2 class="product-title">GEFORCE RTX 5090 32GB 512 bit ASUS TUF GAMING</h2>
+                            <p class="product-price">$ 3,295.00 (S/ 12,125.50)</p>
+
+                        </div>
+                        <div class="product-card">
+                            <img src="rx 9070.png" alt="store2">
+                            <h3 class="product-title">ASUS AMD RADEON RX 9070 XT 16GB GDDR6 256BITS TUF GAMING OC</h3>
+                            <p class="product-price">$ 1,048.95 (S/ 3,860.14)</p>
+                        </div>
+                        <div class="product-card">
+                            <img src="arc.jpg" alt="store3">
+                            <h3 class="product-title">Intel Tarjeta gráfica Arc A770 Limited Edition 16GB</h3>
+                            <p class="product-price">$ 598.99 (S/ 2,170.90)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+    &copy; 2025 Enigma. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
